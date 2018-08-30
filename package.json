@@ -1,0 +1,36 @@
+{
+  "name": "angular6-webpack4-seed",
+  "version": "1.0.0",
+  "main": "index.html",
+  "scripts": {
+    "build": "rimraf dist && cross-env NODE_ENV=production webpack -p",
+    "start": "cross-env NODE_ENV=development webpack-dev-server --mode development --inline --hot"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@angular/compiler": "^6.1.4",
+    "@angular/compiler-cli": "^6.1.4",
+    "@ngtools/webpack": "^6.1.5",
+    "@types/core-js": "^2.5.0",
+    "@types/node": "^10.9.2",
+    "angular2-template-loader": "^0.6.2",
+    "awesome-typescript-loader": "^5.2.0",
+    "cross-env": "^5.2.0",
+    "file-loader": "^2.0.0",
+    "html-loader": "^0.5.5",
+    "rimraf": "^2.6.2",
+    "typescript": "^2.7",
+    "webpack": "^4.17.1",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.6"
+  },
+  "dependencies": {
+    "@angular/common": "^6.1.4",
+    "@angular/core": "^6.1.4",
+    "@angular/platform-browser": "^6.1.4",
+    "@angular/platform-browser-dynamic": "^6.1.4",
+    "core-js": "^2.5.7",
+    "rxjs": "^6.2.2",
+    "zone.js": "^0.8.26"
+  }
+}
