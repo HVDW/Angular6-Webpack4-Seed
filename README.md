@@ -1,6 +1,6 @@
 # Angular 6 Webpack 4 Seed
 
-This seed is custom build with minimal features to be able to have a clean as quickly as possible.
+This Angular 6 seed is custom build with Webpack 4 and has minimal features to be able to have a clean start as quickly as possible.
 
 ## Install
 
